@@ -35,8 +35,20 @@ static inline CGPoint vectorNormalize(CGPoint a) {
 
 -(instancetype)initWithSize:(CGSize)size{
     if (self = [super initWithSize:size]) {
+        NSLog(@"initWithSize");
 
         self.backgroundColor=[SKColor colorWithRed:0.8 green:0.8 blue:0.8 alpha:1];
+        
+//        NSString *burstPath =
+//        [[NSBundle mainBundle] pathForResource:@"Snow" ofType:@"sks"];
+//         SKEmitterNode *burstEmitter =
+//        [NSKeyedUnarchiver unarchiveObjectWithFile:burstPath];
+//         burstEmitter.position = CGPointMake(100, 400);
+//        burstEmitter.numParticlesToEmit=30;
+//        burstEmitter.speed=2;
+//         [self addChild:burstEmitter];
+        
+        
         self.player = [SKSpriteNode spriteNodeWithImageNamed:@"sun"];
         self.player.position = CGPointMake(self.player.size.width/2, self.frame.size.height/2);
         [self addChild:self.player];

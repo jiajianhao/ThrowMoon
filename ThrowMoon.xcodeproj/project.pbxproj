@@ -21,6 +21,8 @@
 		1202D6C41F6247E6002047E7 /* StarScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1202D6C31F6247E6002047E7 /* StarScene.m */; };
 		1202D6C71F624808002047E7 /* GameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1202D6C51F624808002047E7 /* GameOverScene.m */; };
 		1202D6C91F624BC8002047E7 /* Untitled.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1202D6C81F624BC8002047E7 /* Untitled.gif */; };
+		1202D6DC1F62703A002047E7 /* Snow.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1202D6DA1F62703A002047E7 /* Snow.sks */; };
+		1202D6DD1F62703A002047E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1202D6DB1F62703A002047E7 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,8 @@
 		1202D6C51F624808002047E7 /* GameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverScene.m; sourceTree = "<group>"; };
 		1202D6C61F624808002047E7 /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
 		1202D6C81F624BC8002047E7 /* Untitled.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Untitled.gif; sourceTree = "<group>"; };
+		1202D6DA1F62703A002047E7 /* Snow.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Snow.sks; sourceTree = "<group>"; };
+		1202D6DB1F62703A002047E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +172,8 @@
 				1202D6C61F624808002047E7 /* GameOverScene.h */,
 				1202D6C51F624808002047E7 /* GameOverScene.m */,
 				1202D6C81F624BC8002047E7 /* Untitled.gif */,
+				1202D6DA1F62703A002047E7 /* Snow.sks */,
+				1202D6DB1F62703A002047E7 /* Assets.xcassets */,
 			);
 			path = Myfolder;
 			sourceTree = "<group>";
@@ -286,6 +292,8 @@
 				1202D68E1F624798002047E7 /* GameScene.sks in Resources */,
 				1202D69B1F624798002047E7 /* Assets.xcassets in Resources */,
 				1202D69E1F624798002047E7 /* LaunchScreen.storyboard in Resources */,
+				1202D6DC1F62703A002047E7 /* Snow.sks in Resources */,
+				1202D6DD1F62703A002047E7 /* Assets.xcassets in Resources */,
 				1202D6901F624798002047E7 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -554,6 +562,7 @@
 				1202D6BA1F624799002047E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1202D6BB1F624799002047E7 /* Build configuration list for PBXNativeTarget "ThrowMoonTests" */ = {
 			isa = XCConfigurationList;
@@ -562,6 +571,7 @@
 				1202D6BD1F624799002047E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1202D6BE1F624799002047E7 /* Build configuration list for PBXNativeTarget "ThrowMoonUITests" */ = {
 			isa = XCConfigurationList;
@@ -570,6 +580,7 @@
 				1202D6C01F624799002047E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
